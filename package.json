@@ -1,0 +1,32 @@
+{
+  "name": "vue3-ts-naiveui-tailwindcss-template",
+  "private": false,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc && vite build",
+    "build-single-file": "vue-tsc && vite build --mode single-file",
+    "preview": "vite preview",
+    "format": "prettier --write ."
+  },
+  "dependencies": {
+    "pinia": "^2.1.4",
+    "vue": "^3.3.4",
+    "vue-router": "^4.2.4"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^4.2.3",
+    "autoprefixer": "^10.4.14",
+    "naive-ui": "^2.34.4",
+    "postcss": "^8.4.26",
+    "prettier": "^3.0.0",
+    "tailwindcss": "^3.3.3",
+    "typescript": "^5.1.6",
+    "unplugin-auto-import": "^0.16.6",
+    "unplugin-vue-components": "^0.25.1",
+    "vite": "^4.4.4",
+    "vite-plugin-singlefile": "^0.13.5",
+    "vue-tsc": "^1.8.5"
+  }
+}
